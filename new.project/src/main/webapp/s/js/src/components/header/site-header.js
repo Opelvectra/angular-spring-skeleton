@@ -4,7 +4,6 @@ $AppUtils.directive({
 	controller : function(scope, greetingsService, http) {
 
 		this.someAbout = function() {
-			console.log(scope.dirScope.b);
 			greetingsService.alarm();
 		};
 	},
