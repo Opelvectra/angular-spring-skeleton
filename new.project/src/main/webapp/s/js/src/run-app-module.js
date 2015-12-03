@@ -28,7 +28,7 @@
 							template: '<div>Page not found</div>'
 						}, {
 							name: 'home',
-							url: '/',
+							url: '',
 							templateUrl : 's/js/src/components/route-partials/home.html',
 							controller: function($injector, $scope, $httpResolver){
 						        console.log('>> home!');
