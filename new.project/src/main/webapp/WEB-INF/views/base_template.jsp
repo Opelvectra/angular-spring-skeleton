@@ -9,7 +9,7 @@
 	<title>The new project</title>
 	
 	<!-- custom CSS -->
-	<link rel="stylesheet" href="/new_project/s/css/ng/base.css" type="text/css" />
+	<link rel="stylesheet" href="/new_project/s/css/base.css" type="text/css" />
 </head>
 <body>
 	<base-directive inject-args="{a:'some A data', b:'some B data'}"></base-directive>

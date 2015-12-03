@@ -7,6 +7,7 @@ $AppUtils.directive({
 	dependencies: {
 		services: [{
 			name: '$scope'
-		}]
+		}],
+		directives : [ 'src/components/header/menu/menu' ]
 	}
 });
