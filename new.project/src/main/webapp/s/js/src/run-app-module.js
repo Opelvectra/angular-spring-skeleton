@@ -31,7 +31,7 @@
 							url: '',
 							templateUrl : 's/js/src/components/route-partials/home.html',
 							controller: function($injector, $scope, $httpResolver){
-						        console.log('>> home!');
+						        
 						    }
 						}, {
 							name: 'state1',
@@ -39,14 +39,14 @@
 							dependencies: ['src/components/state1/state1-info'],
 							templateUrl : 's/js/src/components/route-partials/state1.html',
 							controller: function($injector, $scope, $httpResolver){
-						        console.log('>> state1! Much better!');
+						        
 						    }
 						}, {
 							name: 'state2',
 							url: 'state2',
 							templateUrl : 's/js/src/components/route-partials/state2.html',
 							controller: function($injector, $scope, $httpResolver){
-						        console.log('>> state2!');
+						        
 						    }
 						}, {
 							name: 'login',
@@ -54,14 +54,14 @@
 							dependencies: ['src/components/sign-in-page/sign-in-block/sign-in-block'],
 							templateUrl : 's/js/src/components/sign-in-page/sign-in.html',
 							controller: function($injector, $scope, $httpResolver){
-						        console.log('>> login!');
+						        
 						    }
 						}, {
 							name: 'state3',
 							url: 'state3',
 							templateUrl : 's/js/src/components/route-partials/state1.html',
 							controller: function($injector, $scope, $httpResolver){
-						        console.log('>> state3!');
+						        
 						    }
 						}]);
 					}

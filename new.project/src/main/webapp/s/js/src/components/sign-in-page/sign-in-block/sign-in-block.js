@@ -26,7 +26,6 @@ $AppUtils.directive({
 			name : '$scope'
 		}, {
 			url : 'src/components/sign-in-page/sign-in-block/sign-in-service'
-		}],
-		directives : [ 'src/components/header/menu/menu' ]
+		}]
 	}
 });
