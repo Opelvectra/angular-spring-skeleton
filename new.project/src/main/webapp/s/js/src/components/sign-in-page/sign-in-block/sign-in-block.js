@@ -4,7 +4,18 @@ $AppUtils.directive({
 	controller : function(scope, signInService) {
 
 		this.logInSubmit = function() {
-			signInService.logInSubmit();
+			signInService.logInSubmit({
+				credentials: {
+					login: 'user',
+					password: 'password'
+				},
+				onSuccess: function(){
+					console.log('credentials correct');
+				}, 
+				onError: function(errorMess){
+					console.log('credentials incorrect: ' + errorMess);
+				}
+			});
 		};
 		this.signUpSubmit = function() {
 			signInService.signUpSubmit();

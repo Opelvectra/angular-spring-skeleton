@@ -80,7 +80,9 @@ define(['lib/angular-ui-router',
 				this.$httpResolver = function($http, $injector, $q){
 					var deferred = $q.defer();
 					require(options.dependencies || [], function(){
-			            $http({method: 'POST', url: options.url})
+			            $http({method: 'GET', url: options.url, headers: {
+			                'Content-Type': 'application/json'
+			            }})
 			            .then(function(data) {
 							deferred.resolve(data);
 			            }, function (data) {
