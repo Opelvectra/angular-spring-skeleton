@@ -5,8 +5,9 @@
 <html>
 <head>
 	<meta name="viewport" content="initial-scale=1" />
-    <base href="/new_project/">
 	<title>The new project</title>
+	
+    <base href="/new_project/">
 	
 	<!-- custom CSS -->
 	<link rel="stylesheet" href="/new_project/s/css/base.css" type="text/css" />

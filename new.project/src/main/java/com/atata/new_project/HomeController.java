@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private int x = 1;
 	
 	@RequestMapping(value = { "/", "/login", "/state1", "/state2" },
 			method = RequestMethod.GET)
